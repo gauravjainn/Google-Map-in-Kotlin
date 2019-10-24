@@ -14,6 +14,7 @@ public class MainApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        // set up crash analytics in project
         Fabric.with(this, new Crashlytics());
         Crashlytics.log(Log.VERBOSE, TAG, "crash");
     }
