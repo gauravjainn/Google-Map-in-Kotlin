@@ -9,6 +9,7 @@ import io.fabric.sdk.android.Fabric
 
 class MainApplication : Application() {
 
+    private val TAG = "GoogleKMap"
     override fun onCreate() {
         super.onCreate()
         // set up crash analytics in project
@@ -21,8 +22,4 @@ class MainApplication : Application() {
 
     }
 
-    companion object {
-
-        private val TAG = "GoogleKMap"
-    }
 }
