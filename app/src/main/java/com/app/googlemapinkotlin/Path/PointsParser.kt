@@ -71,7 +71,9 @@ class PointsParser(mContext: Context, directionMode: String) :
                 lineOptions.width(10f)
                 lineOptions.color(Color.MAGENTA)
             } else {
+                /*used to set width of polyline*/
                 lineOptions.width(20f)
+                /*used to set color of plyline*/
                 lineOptions.color(Color.RED)
             }
             Log.d("mylog", "onPostExecute lineoptions decoded")
